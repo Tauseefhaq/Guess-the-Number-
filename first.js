@@ -16,7 +16,7 @@ while (a !== randomNumber) {
         alert("Too low! Try again.");
     } else if (a > randomNumber) {
         alert("Too high! Try again.");
-    }else if (guesses.length > 100) {
+    }else if (guesses.length > 10) {
         alert("You have exceeded the maximum number of attempts. Game over!");
         break;
     }
