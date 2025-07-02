@@ -2,10 +2,10 @@ function getrandomNumber() {
     return Math.floor(Math.random() * 100);
 }
 let randomNumber = getrandomNumber();
-alert("Welcome to the Random Number Guessing game\nYou have 100 tries to make the guess and your score will be decided by subtracting the number of guess from 100");
+alert("Welcome to the Random Number Guessing game\nYou have 100 tries to make the guess and your score will be decided by subtracting the number of guesses from 100");
 let a = prompt("Enter a number between 1 and 100:");
 a=Number.parseInt(a);
-let score = 100
+let score = 100;
 let guesses =[];
 guesses.push(a);
 if (a === randomNumber) {
