@@ -26,7 +26,7 @@ while (a !== randomNumber) {
 }
 if (guesses.length > 1) {
     alert(`your score is ${score - (guesses.length)} and you guessed the number in ${guesses.length} attempts`);
-    console.log(guesses)
+    document.write(guesses);
 }else if (guesses.length === 1) {
     alert(`your score is perfect and you guessed the number in your first attempt`);
 }
